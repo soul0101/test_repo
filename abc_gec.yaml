@@ -1,0 +1,10 @@
+uwh_org_level_hooks:
+- endpoints:
+    - "https://url2"
+    - "https://url3"
+  events:
+    - ping
+    - pull_request
+    - push
+    - issue_comment
+    - repository
